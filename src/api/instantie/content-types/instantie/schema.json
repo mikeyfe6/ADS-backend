@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instanties",
+  "info": {
+    "singularName": "instantie",
+    "pluralName": "instanties",
+    "displayName": "Instanties"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "naam": {
+      "type": "string"
+    },
+    "plek": {
+      "type": "string"
+    }
+  }
+}
