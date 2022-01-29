@@ -96,6 +96,7 @@ node_modules
 .node_history
 
 package-lock.json
+yarn.lock
 
 ############################
 # Tests
@@ -108,11 +109,9 @@ coverage
 # Strapi
 ############################
 
-.env
+.env*
 license.txt
 exports
 *.cache
 build
 .strapi-updater.json
-
-
