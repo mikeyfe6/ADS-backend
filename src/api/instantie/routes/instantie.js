@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  * instantie router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::instantie.instantie');
+module.exports = createCoreRouter("api::instantie.instantie");

@@ -4,18 +4,77 @@
   "info": {
     "singularName": "instantie",
     "pluralName": "instanties",
-    "displayName": "Instanties"
+    "displayName": "Instanties",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "naam": {
+    "profiel": {
       "type": "string"
     },
-    "plek": {
-      "type": "string"
+    "biografie": {
+      "type": "richtext"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bgfree": {
+      "type": "enumeration",
+      "enum": [
+        "zwart",
+        "grijs",
+        "geel",
+        "roze",
+        "bruin",
+        "groen",
+        "afrotheme"
+      ],
+      "default": "zwart"
+    },
+    "facebooklink": {
+      "type": "string",
+      "default": "#"
+    },
+    "twitterlink": {
+      "type": "string",
+      "default": "#"
+    },
+    "instagramlink": {
+      "type": "string",
+      "default": "#"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "whatsapplink": {
+      "type": "string",
+      "default": "#"
+    },
+    "tiktoklink": {
+      "type": "string",
+      "default": "#"
+    },
+    "website": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "gebruiker"
     }
   }
 }

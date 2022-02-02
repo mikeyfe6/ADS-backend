@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
  *  instantie controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::instantie.instantie');
+module.exports = createCoreController("api::instantie.instantie");
