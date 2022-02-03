@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  // ...
+  // ...USER PERMS PLUGIN
   "users-permissions": {
     config: {
       jwt: {
@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  // ...
+  // ...UPLOAD PLUGIN
   upload: {
     config: {
       provider: "cloudinary",
@@ -22,7 +22,7 @@ module.exports = ({ env }) => ({
       // },
     },
   },
-  // ...
+  // ...SENDGRID PLUGIN
   email: {
     provider: "sendgrid",
     providerOptions: {
@@ -31,6 +31,20 @@ module.exports = ({ env }) => ({
     settings: {
       defaultFrom: "develop@menefex.nl",
       defaultReplyTo: "develop@menefex.nl",
+    },
+  },
+  // ...GRAPHQL PLUGIN
+  graphql: {
+    config: {
+      endpoint: "/graphql",
+      shadowCRUD: true,
+      playgroundAlways: true,
+      depthLimit: 7,
+      amountLimit: 100,
+      apolloServer: {
+        tracing: true,
+        introspection: true,
+      },
     },
   },
 });
