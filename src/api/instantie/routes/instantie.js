@@ -13,7 +13,6 @@ module.exports = createCoreRouter("api::instantie.instantie", {
         // pass a policy implementation directly
         (policyContext, config, { strapi }) => {
           policyContext.request.body.data.persoon = policyContext.state.user.id;
-          console.log("dit is aangemaakt");
         },
       ],
     },
