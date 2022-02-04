@@ -65,15 +65,15 @@
     },
     "gebruiker": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::instantie.instantie",
-      "inversedBy": "website"
-    },
-    "eindgebruiker": {
-      "type": "relation",
       "relation": "oneToMany",
       "target": "api::connection.connection",
       "mappedBy": "links"
+    },
+    "website": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::instantie.instantie",
+      "mappedBy": "persoon"
     }
   }
 }

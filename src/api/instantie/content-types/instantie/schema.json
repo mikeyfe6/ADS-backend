@@ -60,7 +60,8 @@
       "default": "#"
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "profiel"
     },
     "whatsapplink": {
       "type": "string",
@@ -70,11 +71,11 @@
       "type": "string",
       "default": "#"
     },
-    "website": {
+    "persoon": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
-      "mappedBy": "gebruiker"
+      "inversedBy": "website"
     }
   }
 }

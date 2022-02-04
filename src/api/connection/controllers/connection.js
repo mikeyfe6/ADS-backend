@@ -22,7 +22,9 @@ module.exports = createCoreController(
       ) {
         const { user } = ctx.state;
 
-        console.log("Welkom terug in je Afrodiasphere dashboard");
+        console.log(
+          "Welkom terug in je Afrodiasphere dashboard! [CONNECTIONS]"
+        );
         const entities = await strapi.db
           .query("api::connection.connection")
           .findMany({
@@ -34,13 +36,18 @@ module.exports = createCoreController(
 
         return entities;
       } else if (ctx.originalUrl === "/api/connections?populate=*") {
-        console.log("NIET geautoriseerde gebruiker meld zich aan");
+        console.log(
+          "NIET geautoriseerde gebruiker meld zich aan! [CONNECTIONS]"
+        );
         const entities = await strapi.db
           .query("api::connection.connection")
           .findMany({ populate: true });
+
         return entities;
       } else {
-        return console.log("FOUTMELDING!"), false;
+        return (
+          console.log("FOUTMELDING! niks te zien hier! [CONNECTIONS]"), false
+        );
       }
     },
   })
