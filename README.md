@@ -1,57 +1,38 @@
-# 🚀 Getting started with Strapi
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+&nbsp;&nbsp;
 
-### `develop`
+<!-- <p align="center">
+  <a href="https://afrodiasphere.netlify.app/" rel="noopener noreferrer"
+              target="_blank">
+    <img alt="Afrodiasphere" src="https://i.postimg.cc/Yq04rydW/Afrodiasphere-screen.png" width="500" />
+  </a>
+</p> -->
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+&nbsp;&nbsp;
 
-```
-npm run develop
-# or
-yarn develop
-```
+<h1>
+  Afrodiasphere [BACK-END]
+</h1>
 
-### `start`
+<!-- Gimmix is een jong en modern webmediabedrijf, opgericht door [Michael Fransman](https://www.linkedin.com/in/michaelfransman/).
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+Die zich inzet en gespecialiseerd is in het uitdenken en ontwikkelen van websites en webapplicaties. Wij zorgen dat de ambities van de klant en het eindproduct tot één komen. -->
 
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+- _Bekijk ook de webapp / Also check the webapp: [Afrodiasphere](https://afrodiasphere.netlify.app/)_
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+**Deze webapp is gebouwd met GatsbyJS, ReactJS, Strapi, GraphQl, Heroku & Netlify.**
+
+Powered by [Menefex](https://menefex.nl/) ✨
+
+## Licence ✒️
+
+0BSD, all rights reserved, Afrodiasphere 2022 ©
+
+---
+
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/78c114cf-1bff-4d30-8899-92eacaec9f9a/deploy-status)](https://app.netlify.com/sites/gimmix/deploys) [![time tracker](https://wakatime.com/badge/github/mikeyfe6/Gimmix.svg)](https://wakatime.com/badge/github/mikeyfe6/Gimmix) -->
+
+<!-- AUTO-GENERATED-CONTENT:END -->
