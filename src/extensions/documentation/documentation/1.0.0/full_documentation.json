@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-02-05T18:16:38.031Z"
+    "x-generation-date": "2022-02-08T13:35:38.428Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1432,6 +1432,16 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "occupate": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                          "bedrijf",
+                                                          "zelfstandig",
+                                                          "hobbyist",
+                                                          "stichting",
+                                                          "artist"
+                                                        ]
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -3225,6 +3235,16 @@
                                                         }
                                                       }
                                                     },
+                                                    "occupate": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "bedrijf",
+                                                        "zelfstandig",
+                                                        "hobbyist",
+                                                        "stichting",
+                                                        "artist"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4986,6 +5006,16 @@
                                                         }
                                                       }
                                                     },
+                                                    "occupate": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "bedrijf",
+                                                        "zelfstandig",
+                                                        "hobbyist",
+                                                        "stichting",
+                                                        "artist"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -6686,6 +6716,16 @@
                                                           }
                                                         }
                                                       }
+                                                    },
+                                                    "occupate": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "bedrijf",
+                                                        "zelfstandig",
+                                                        "hobbyist",
+                                                        "stichting",
+                                                        "artist"
+                                                      ]
                                                     },
                                                     "createdAt": {
                                                       "type": "string",
@@ -9403,6 +9443,16 @@
                                                           }
                                                         }
                                                       },
+                                                      "occupate": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                          "bedrijf",
+                                                          "zelfstandig",
+                                                          "hobbyist",
+                                                          "stichting",
+                                                          "artist"
+                                                        ]
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -9502,6 +9552,16 @@
                                     }
                                   }
                                 }
+                              },
+                              "occupate": {
+                                "type": "string",
+                                "enum": [
+                                  "bedrijf",
+                                  "zelfstandig",
+                                  "hobbyist",
+                                  "stichting",
+                                  "artist"
+                                ]
                               },
                               "createdAt": {
                                 "type": "string",
@@ -11962,6 +12022,16 @@
                                                         }
                                                       }
                                                     },
+                                                    "occupate": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "bedrijf",
+                                                        "zelfstandig",
+                                                        "hobbyist",
+                                                        "stichting",
+                                                        "artist"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -12061,6 +12131,16 @@
                                   }
                                 }
                               }
+                            },
+                            "occupate": {
+                              "type": "string",
+                              "enum": [
+                                "bedrijf",
+                                "zelfstandig",
+                                "hobbyist",
+                                "stichting",
+                                "artist"
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -12347,6 +12427,16 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "occupate": {
+                        "type": "string",
+                        "enum": [
+                          "bedrijf",
+                          "zelfstandig",
+                          "hobbyist",
+                          "stichting",
+                          "artist"
+                        ]
                       },
                       "createdAt": {
                         "type": "string",
@@ -14539,6 +14629,16 @@
                                                         }
                                                       }
                                                     },
+                                                    "occupate": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "bedrijf",
+                                                        "zelfstandig",
+                                                        "hobbyist",
+                                                        "stichting",
+                                                        "artist"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -14638,6 +14738,16 @@
                                   }
                                 }
                               }
+                            },
+                            "occupate": {
+                              "type": "string",
+                              "enum": [
+                                "bedrijf",
+                                "zelfstandig",
+                                "hobbyist",
+                                "stichting",
+                                "artist"
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -17007,6 +17117,16 @@
                                                         }
                                                       }
                                                     },
+                                                    "occupate": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "bedrijf",
+                                                        "zelfstandig",
+                                                        "hobbyist",
+                                                        "stichting",
+                                                        "artist"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -17106,6 +17226,16 @@
                                   }
                                 }
                               }
+                            },
+                            "occupate": {
+                              "type": "string",
+                              "enum": [
+                                "bedrijf",
+                                "zelfstandig",
+                                "hobbyist",
+                                "stichting",
+                                "artist"
+                              ]
                             },
                             "createdAt": {
                               "type": "string",
@@ -17403,6 +17533,16 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "occupate": {
+                        "type": "string",
+                        "enum": [
+                          "bedrijf",
+                          "zelfstandig",
+                          "hobbyist",
+                          "stichting",
+                          "artist"
+                        ]
                       },
                       "createdAt": {
                         "type": "string",

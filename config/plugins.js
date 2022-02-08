@@ -24,13 +24,16 @@ module.exports = ({ env }) => ({
   },
   // ...SENDGRID PLUGIN
   email: {
-    provider: "sendgrid",
-    providerOptions: {
-      apiKey: env("SENDGRID_API_KEY"),
-    },
-    settings: {
-      defaultFrom: "develop@menefex.nl",
-      defaultReplyTo: "develop@menefex.nl",
+    config: {
+      provider: "sendgrid",
+      providerOptions: {
+        apiKey: env("SENDGRID_API_KEY"),
+      },
+      settings: {
+        defaultFrom: "afrodiasphere@menefex.nl",
+        defaultReplyTo: "afrodiasphere@menefex.nl",
+        testAddress: "develop@menefex.nl",
+      },
     },
   },
   // ...GRAPHQL PLUGIN

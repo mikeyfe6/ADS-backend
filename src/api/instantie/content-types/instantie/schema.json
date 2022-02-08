@@ -76,6 +76,16 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "website"
+    },
+    "occupate": {
+      "type": "enumeration",
+      "enum": [
+        "bedrijf",
+        "zelfstandig",
+        "hobbyist",
+        "stichting",
+        "artist"
+      ]
     }
   }
 }
