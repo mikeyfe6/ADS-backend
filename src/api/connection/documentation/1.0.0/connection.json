@@ -1393,6 +1393,21 @@
                                                           "artist"
                                                         ]
                                                       },
+                                                      "pinterestlink": {
+                                                        "type": "string"
+                                                      },
+                                                      "snapchatlink": {
+                                                        "type": "string"
+                                                      },
+                                                      "linkedinlink": {
+                                                        "type": "string"
+                                                      },
+                                                      "youtubelink": {
+                                                        "type": "string"
+                                                      },
+                                                      "gofundmelink": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -3195,6 +3210,21 @@
                                                         "artist"
                                                       ]
                                                     },
+                                                    "pinterestlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "snapchatlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "linkedinlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "youtubelink": {
+                                                      "type": "string"
+                                                    },
+                                                    "gofundmelink": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4966,6 +4996,21 @@
                                                         "artist"
                                                       ]
                                                     },
+                                                    "pinterestlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "snapchatlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "linkedinlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "youtubelink": {
+                                                      "type": "string"
+                                                    },
+                                                    "gofundmelink": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -6676,6 +6721,21 @@
                                                         "stichting",
                                                         "artist"
                                                       ]
+                                                    },
+                                                    "pinterestlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "snapchatlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "linkedinlink": {
+                                                      "type": "string"
+                                                    },
+                                                    "youtubelink": {
+                                                      "type": "string"
+                                                    },
+                                                    "gofundmelink": {
+                                                      "type": "string"
                                                     },
                                                     "createdAt": {
                                                       "type": "string",

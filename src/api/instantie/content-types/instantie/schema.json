@@ -86,6 +86,21 @@
         "stichting",
         "artist"
       ]
+    },
+    "pinterestlink": {
+      "type": "string"
+    },
+    "snapchatlink": {
+      "type": "string"
+    },
+    "linkedinlink": {
+      "type": "string"
+    },
+    "youtubelink": {
+      "type": "string"
+    },
+    "gofundmelink": {
+      "type": "string"
     }
   }
 }
