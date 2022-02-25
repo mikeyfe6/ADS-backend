@@ -2,7 +2,7 @@
   "name": "ads-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "BACK-end Afrodiasphere",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -24,13 +24,15 @@
     "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Michael Fransman",
+    "email": "mikeyfe6@menefex.nl",
+    "url": "https://menefex.nl"
   },
   "strapi": {
     "uuid": "3d784381-ade3-44d9-82f3-d713d2f56025"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=12.22.0 <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
