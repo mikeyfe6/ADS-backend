@@ -21,7 +21,8 @@
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "slugify": "^1.6.5",
-    "sqlite3": "5.0.2"
+    "sqlite3": "5.0.2",
+    "strapi-plugin-slugify": "^2.1.1"
   },
   "author": {
     "name": "Michael Fransman",

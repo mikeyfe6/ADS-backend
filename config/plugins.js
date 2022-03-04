@@ -50,4 +50,16 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  // ...SLUGIFY PLUGIN
+  slugify: {
+    enabled: true,
+    config: {
+      contentTypes: {
+        instantie: {
+          field: "slug",
+          references: "profiel",
+        },
+      },
+    },
+  },
 });
