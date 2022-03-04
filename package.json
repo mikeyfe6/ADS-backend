@@ -20,8 +20,7 @@
     "@strapi/strapi": "4.1.2",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2",
-    "strapi-plugin-slugify": "^2.1.1"
+    "sqlite3": "5.0.2"
   },
   "author": {
     "name": "Michael Fransman",
