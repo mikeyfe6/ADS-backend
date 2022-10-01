@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "4.2.3",
-    "@strapi/plugin-graphql": "4.2.3",
-    "@strapi/plugin-i18n": "4.2.3",
-    "@strapi/plugin-users-permissions": "4.2.3",
-    "@strapi/provider-email-sendgrid": "^4.2.3",
-    "@strapi/provider-upload-cloudinary": "^4.2.3",
-    "@strapi/strapi": "4.2.3",
-    "pg": "^8.7.3",
+    "@strapi/plugin-documentation": "4.4.1",
+    "@strapi/plugin-graphql": "4.4.1",
+    "@strapi/plugin-i18n": "4.4.1",
+    "@strapi/plugin-users-permissions": "4.4.1",
+    "@strapi/provider-email-sendgrid": "^4.4.1",
+    "@strapi/provider-upload-cloudinary": "^4.4.1",
+    "@strapi/strapi": "4.4.1",
+    "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.10"
+    "sqlite3": "5.1.1"
   },
   "author": {
     "name": "Michael Fransman",
@@ -31,7 +31,7 @@
     "uuid": "3d784381-ade3-44d9-82f3-d713d2f56025"
   },
   "engines": {
-    "node": ">=12.22.0 <=16.x.x",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
