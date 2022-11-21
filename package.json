@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "4.4.1",
-    "@strapi/plugin-graphql": "4.4.1",
-    "@strapi/plugin-i18n": "4.4.1",
-    "@strapi/plugin-users-permissions": "4.4.1",
-    "@strapi/provider-email-sendgrid": "^4.4.1",
-    "@strapi/provider-upload-cloudinary": "^4.4.1",
-    "@strapi/strapi": "4.4.1",
+    "@strapi/plugin-documentation": "4.5.1",
+    "@strapi/plugin-graphql": "4.5.1",
+    "@strapi/plugin-i18n": "4.5.1",
+    "@strapi/plugin-users-permissions": "4.5.1",
+    "@strapi/provider-email-sendgrid": "^4.5.1",
+    "@strapi/provider-upload-cloudinary": "^4.5.1",
+    "@strapi/strapi": "4.5.1",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.1.1"
+    "sqlite3": "5.1.2"
   },
   "author": {
     "name": "Michael Fransman",
