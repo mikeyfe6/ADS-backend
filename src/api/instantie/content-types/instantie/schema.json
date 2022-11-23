@@ -48,28 +48,23 @@
       "default": "zwart"
     },
     "facebooklink": {
-      "type": "string",
-      "default": "#"
+      "type": "string"
     },
     "twitterlink": {
-      "type": "string",
-      "default": "#"
+      "type": "string"
     },
     "instagramlink": {
-      "type": "string",
-      "default": "#"
+      "type": "string"
     },
     "slug": {
       "type": "uid",
       "targetField": "profiel"
     },
     "whatsapplink": {
-      "type": "string",
-      "default": "#"
+      "type": "string"
     },
     "tiktoklink": {
-      "type": "string",
-      "default": "#"
+      "type": "string"
     },
     "persoon": {
       "type": "relation",
