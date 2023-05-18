@@ -22,7 +22,7 @@ module.exports = createCoreController(
       ) {
         const { user } = ctx.state;
 
-        console.log("Welkom terug in je Afrodiasphere dashboard! [INSTANTIES]");
+        console.log("Welkom terug in jouw ADS dashboard! [INSTANTIES]");
         const entities = await strapi.db
           .query("api::instantie.instantie")
           .findOne({
@@ -34,9 +34,7 @@ module.exports = createCoreController(
 
         return entities;
       } else if (ctx.originalUrl === "/api/instanties?populate=*") {
-        console.log(
-          "NIET geautoriseerde gebruiker meld zich aan! [INSTANTIES]"
-        );
+        console.log("NIET geautoriseerde gebruiker! [INSTANTIES]");
         const entities = await strapi.db
           .query("api::instantie.instantie")
           .findMany({ populate: true });
