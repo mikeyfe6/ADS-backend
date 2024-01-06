@@ -22,8 +22,8 @@
     "pg-connection-string": "^2.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "6.21.1",
-    "styled-components": "6.1.6"
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
     "name": "Michael Fransman",
