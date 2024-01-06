@@ -2,8 +2,8 @@ module.exports = ({ env }) => ({
   // ...USER PERMS PLUGIN
   "users-permissions": {
     config: {
-      jwt: {
-        expiresIn: "7d",
+      config: {
+        jwtSecret: env("JWT_SECRET"),
       },
     },
   },
@@ -16,10 +16,6 @@ module.exports = ({ env }) => ({
         api_key: env("CLOUDINARY_KEY"),
         api_secret: env("CLOUDINARY_SECRET"),
       },
-      // actionOptions: {
-      //   upload: {},
-      //   delete: {},
-      // },
     },
   },
   // ...SENDGRID PLUGIN
