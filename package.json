@@ -9,18 +9,21 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "4.10.5",
-    "@strapi/plugin-graphql": "4.10.5",
-    "@strapi/plugin-i18n": "4.10.5",
-    "@strapi/plugin-users-permissions": "4.10.5",
-    "@strapi/provider-email-sendgrid": "^4.10.5",
-    "@strapi/provider-upload-cloudinary": "^4.10.5",
-    "@strapi/strapi": "4.10.5",
-    "pg": "^8.11.0",
-    "pg-connection-string": "^2.6.0",
-    "sqlite3": "5.1.6"
+    "@strapi/plugin-documentation": "4.16.2",
+    "@strapi/plugin-graphql": "4.16.2",
+    "@strapi/plugin-i18n": "4.16.2",
+    "@strapi/plugin-users-permissions": "4.16.2",
+    "@strapi/provider-email-sendgrid": "^4.16.2",
+    "@strapi/provider-upload-cloudinary": "^4.16.2",
+    "@strapi/strapi": "4.16.2",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "sqlite3": "5.1.7",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "Michael Fransman",
@@ -31,7 +34,8 @@
     "uuid": "3d784381-ade3-44d9-82f3-d713d2f56025"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
