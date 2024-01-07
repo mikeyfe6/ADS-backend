@@ -8,6 +8,7 @@ module.exports = ({ env }) => ({
       filename: path.join(
         __dirname,
         "..",
+        "..",
         env("DATABASE_FILENAME", ".tmp/data.db")
       ),
     },
