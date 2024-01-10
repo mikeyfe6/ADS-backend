@@ -413,7 +413,6 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
   };
   attributes: {
     profiel: Attribute.String;
-    biografie: Attribute.RichText;
     avatar: Attribute.Media;
     background: Attribute.Media;
     bgfree: Attribute.Enumeration<
@@ -439,6 +438,14 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
     linkedinlink: Attribute.String;
     youtubelink: Attribute.String;
     gofundmelink: Attribute.String;
+    biografie: Attribute.RichText &
+      Attribute.CustomField<
+        'plugin::ckeditor.CKEditor',
+        {
+          output: 'HTML';
+          preset: 'light';
+        }
+      >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-01-09T07:58:24.413Z"
+    "x-generation-date": "2024-01-10T21:27:36.232Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -743,9 +743,6 @@
                                   "profiel": {
                                     "type": "string"
                                   },
-                                  "biografie": {
-                                    "type": "string"
-                                  },
                                   "avatar": {
                                     "type": "object",
                                     "properties": {
@@ -1327,6 +1324,9 @@
                                   "gofundmelink": {
                                     "type": "string"
                                   },
+                                  "biografie": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -1509,9 +1509,6 @@
               "profiel": {
                 "type": "string"
               },
-              "biografie": {
-                "type": "string"
-              },
               "avatar": {
                 "oneOf": [
                   {
@@ -1599,6 +1596,9 @@
               },
               "gofundmelink": {
                 "type": "string"
+              },
+              "biografie": {
+                "type": "string"
               }
             }
           }
@@ -1654,9 +1654,6 @@
         "type": "object",
         "properties": {
           "profiel": {
-            "type": "string"
-          },
-          "biografie": {
             "type": "string"
           },
           "avatar": {
@@ -2764,9 +2761,6 @@
                                   "profiel": {
                                     "type": "string"
                                   },
-                                  "biografie": {
-                                    "type": "string"
-                                  },
                                   "avatar": {
                                     "type": "object",
                                     "properties": {
@@ -3117,6 +3111,9 @@
                                   "gofundmelink": {
                                     "type": "string"
                                   },
+                                  "biografie": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -3240,6 +3237,9 @@
             "type": "string"
           },
           "gofundmelink": {
+            "type": "string"
+          },
+          "biografie": {
             "type": "string"
           },
           "createdAt": {

@@ -5,6 +5,6 @@ module.exports = ({ env }) => ({
     keys: env.array("APP_KEYS"),
   },
   webhooks: {
-    populateRelations: false,
+    populateRelations: true,
   },
 });

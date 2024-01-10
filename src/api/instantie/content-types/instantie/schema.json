@@ -15,9 +15,6 @@
     "profiel": {
       "type": "string"
     },
-    "biografie": {
-      "type": "richtext"
-    },
     "avatar": {
       "type": "media",
       "multiple": false,
@@ -97,6 +94,14 @@
     },
     "gofundmelink": {
       "type": "string"
+    },
+    "biografie": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
