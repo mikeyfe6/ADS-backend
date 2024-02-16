@@ -33,6 +33,10 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  // ...SLUGIFY PLUGIN
+  slugify: {
+    enabled: false,
+  },
   // ...GRAPHQL PLUGIN
   graphql: {
     config: {
@@ -47,17 +51,4 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  // ...SLUGIFY PLUGIN
-  // slugify: {
-  //   enabled: true,
-  //   config: {
-  //     contentTypes: {
-  //       instantie: {
-  //         field: "slug",
-  //         references: "profiel",
-  //       },
-  //     },
-  //   },
-  // },
-  // TODO fixen als er een update komt...
 });

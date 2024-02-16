@@ -422,7 +422,7 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
     facebooklink: Attribute.String;
     twitterlink: Attribute.String;
     instagramlink: Attribute.String;
-    slug: Attribute.UID<'api::instantie.instantie', 'profiel'>;
+    slug: Attribute.UID & Attribute.Required;
     whatsapplink: Attribute.String;
     tiktoklink: Attribute.String;
     persoon: Attribute.Relation<
@@ -614,6 +614,8 @@ export interface PluginContentReleasesRelease extends Schema.CollectionType {
   attributes: {
     name: Attribute.String & Attribute.Required;
     releasedAt: Attribute.DateTime;
+    scheduledAt: Attribute.DateTime;
+    timezone: Attribute.String;
     actions: Attribute.Relation<
       'plugin::content-releases.release',
       'oneToMany',
