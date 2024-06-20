@@ -1,15 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-<!-- &nbsp;&nbsp; -->
-
-<!-- <p align="center">
-  <a href="https://afrodiasphere.netlify.app/" rel="noopener noreferrer"
+<p align="center">
+  <a href="https://afrodiasphere.com/" rel="noopener noreferrer"
               target="_blank">
-    <img alt="Afrodiasphere" src="https://i.postimg.cc/Yq04rydW/Afrodiasphere-screen.png" width="500" />
+    <img alt="Afrodiasphere Logo" src="https://afrodiasphere.com/afrodiasphere-logo.png" width="500" />
   </a>
-</p> -->
-
-<!-- &nbsp;&nbsp; -->
+</p>
 
 <br>
 
@@ -17,11 +13,11 @@
 
 <br>
 
-<!-- Gimmix is een jong en modern webmediabedrijf, opgericht door [Michael Fransman](https://www.linkedin.com/in/michaelfransman/).
+Afrodiasphere is een sociaal netwerk webapplicatie, opgericht door [Michael Fransman](https://www.linkedin.com/in/michaelfransman/).
 
-Die zich inzet en gespecialiseerd is in het uitdenken en ontwikkelen van websites en webapplicaties. Wij zorgen dat de ambities van de klant en het eindproduct tot één komen. -->
+Die ervoor dient bedrijven, particulieren en hobbyisten meer netwerkmogelijkheden te bieden, door middel van jouw dashboard waarin je jouw belangrijke hyperlinks en andere relevante informatie als gebruiker invoert!
 
-- _Bekijk ook de webapp / Also check the webapp: [Afrodiasphere](https://afrodiasphere.netlify.app/)_
+- _Meer weten? Bekijk de webapp / check the webapp: [Afrodiasphere](https://afrodiasphere.com)_
 
 <br>
 
@@ -31,7 +27,7 @@ Die zich inzet en gespecialiseerd is in het uitdenken en ontwikkelen van website
 
 **Deze webapp is gebouwd met GatsbyJS, ReactJS, Strapi, GraphQl, Heroku & Netlify.**
 
-Powered by [Menefex](https://menefex.nl/) ✨
+Powered by [Menefex](https://menefex.nl) ✨
 
 <br>
 
@@ -43,8 +39,7 @@ Powered by [Menefex](https://menefex.nl/) ✨
 
 ---
 
-<br>
-
-[![wakatime](https://wakatime.com/badge/user/172a37f5-1ff4-4cf8-9d08-5ccbe681726b/project/ca095d5a-62d4-43cd-bf89-843589140a47.svg)](https://wakatime.com/badge/user/172a37f5-1ff4-4cf8-9d08-5ccbe681726b/project/ca095d5a-62d4-43cd-bf89-843589140a47)
+👨🏾‍💻 <ins>...this project</ins> <br> [![wakatime](https://wakatime.com/badge/user/172a37f5-1ff4-4cf8-9d08-5ccbe681726b/project/ca095d5a-62d4-43cd-bf89-843589140a47.svg)](https://wakatime.com/badge/user/172a37f5-1ff4-4cf8-9d08-5ccbe681726b/project/ca095d5a-62d4-43cd-bf89-843589140a47) <br>
+👨🏾‍💻 <ins>...all projects</ins> <br> [![wakatime](https://wakatime.com/badge/user/172a37f5-1ff4-4cf8-9d08-5ccbe681726b.svg)](https://wakatime.com/@172a37f5-1ff4-4cf8-9d08-5ccbe681726b)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
