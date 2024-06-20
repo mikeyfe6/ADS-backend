@@ -413,8 +413,8 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
   };
   attributes: {
     profiel: Attribute.String;
-    avatar: Attribute.Media;
-    background: Attribute.Media;
+    avatar: Attribute.Media<'images'>;
+    background: Attribute.Media<'images'>;
     bgfree: Attribute.Enumeration<
       ['zwart', 'grijs', 'geel', 'roze', 'bruin', 'groen', 'afrotheme']
     > &
