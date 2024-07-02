@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "profiel": {
+    "profile": {
       "type": "string"
     },
     "avatar": {
@@ -94,13 +94,19 @@
     "gofundmelink": {
       "type": "string"
     },
-    "biografie": {
+    "biography": {
       "type": "customField",
       "options": {
         "output": "HTML",
         "preset": "light"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "address": {
+      "displayName": "Text & Boolean",
+      "type": "component",
+      "repeatable": false,
+      "component": "conditional.text-and-boolean"
     }
   }
 }

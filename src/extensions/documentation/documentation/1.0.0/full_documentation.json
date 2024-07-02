@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-01T13:50:31.619Z"
+    "x-generation-date": "2024-07-02T01:14:56.505Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -740,7 +740,7 @@
                               "attributes": {
                                 "type": "object",
                                 "properties": {
-                                  "profiel": {
+                                  "profile": {
                                     "type": "string"
                                   },
                                   "avatar": {
@@ -1324,8 +1324,25 @@
                                   "gofundmelink": {
                                     "type": "string"
                                   },
-                                  "biografie": {
+                                  "biography": {
                                     "type": "string"
+                                  },
+                                  "address": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "city": {
+                                        "type": "string"
+                                      },
+                                      "streetname": {
+                                        "type": "string"
+                                      },
+                                      "streetnumber": {
+                                        "type": "string"
+                                      }
+                                    }
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -1509,7 +1526,7 @@
             ],
             "type": "object",
             "properties": {
-              "profiel": {
+              "profile": {
                 "type": "string"
               },
               "avatar": {
@@ -1600,8 +1617,11 @@
               "gofundmelink": {
                 "type": "string"
               },
-              "biografie": {
+              "biography": {
                 "type": "string"
+              },
+              "address": {
+                "$ref": "#/components/schemas/ConditionalTextAndBooleanComponent"
               }
             }
           }
@@ -1659,7 +1679,7 @@
           "slug"
         ],
         "properties": {
-          "profiel": {
+          "profile": {
             "type": "string"
           },
           "avatar": {
@@ -2764,7 +2784,7 @@
                               "attributes": {
                                 "type": "object",
                                 "properties": {
-                                  "profiel": {
+                                  "profile": {
                                     "type": "string"
                                   },
                                   "avatar": {
@@ -3117,8 +3137,25 @@
                                   "gofundmelink": {
                                     "type": "string"
                                   },
-                                  "biografie": {
+                                  "biography": {
                                     "type": "string"
+                                  },
+                                  "address": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "city": {
+                                        "type": "string"
+                                      },
+                                      "streetname": {
+                                        "type": "string"
+                                      },
+                                      "streetnumber": {
+                                        "type": "string"
+                                      }
+                                    }
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -3245,8 +3282,11 @@
           "gofundmelink": {
             "type": "string"
           },
-          "biografie": {
+          "biography": {
             "type": "string"
+          },
+          "address": {
+            "$ref": "#/components/schemas/ConditionalTextAndBooleanComponent"
           },
           "createdAt": {
             "type": "string",
@@ -3315,6 +3355,23 @@
           },
           "meta": {
             "type": "object"
+          }
+        }
+      },
+      "ConditionalTextAndBooleanComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "city": {
+            "type": "string"
+          },
+          "streetname": {
+            "type": "string"
+          },
+          "streetnumber": {
+            "type": "string"
           }
         }
       },

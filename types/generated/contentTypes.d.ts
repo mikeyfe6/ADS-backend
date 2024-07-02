@@ -412,7 +412,7 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    profiel: Attribute.String;
+    profile: Attribute.String;
     avatar: Attribute.Media<'images'>;
     background: Attribute.Media<'images'>;
     bgfree: Attribute.Enumeration<
@@ -438,7 +438,7 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
     linkedinlink: Attribute.String;
     youtubelink: Attribute.String;
     gofundmelink: Attribute.String;
-    biografie: Attribute.RichText &
+    biography: Attribute.RichText &
       Attribute.CustomField<
         'plugin::ckeditor.CKEditor',
         {
@@ -446,6 +446,7 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
           preset: 'light';
         }
       >;
+    address: Attribute.Component<'conditional.text-and-boolean'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
