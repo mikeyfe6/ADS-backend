@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-02T01:14:56.505Z"
+    "x-generation-date": "2024-07-03T11:09:41.377Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1333,13 +1333,15 @@
                                       "id": {
                                         "type": "number"
                                       },
-                                      "city": {
-                                        "type": "string"
+                                      "latitude": {
+                                        "type": "number",
+                                        "format": "float"
                                       },
-                                      "streetname": {
-                                        "type": "string"
+                                      "longitude": {
+                                        "type": "number",
+                                        "format": "float"
                                       },
-                                      "streetnumber": {
+                                      "location": {
                                         "type": "string"
                                       }
                                     }
@@ -3146,13 +3148,15 @@
                                       "id": {
                                         "type": "number"
                                       },
-                                      "city": {
-                                        "type": "string"
+                                      "latitude": {
+                                        "type": "number",
+                                        "format": "float"
                                       },
-                                      "streetname": {
-                                        "type": "string"
+                                      "longitude": {
+                                        "type": "number",
+                                        "format": "float"
                                       },
-                                      "streetnumber": {
+                                      "location": {
                                         "type": "string"
                                       }
                                     }
@@ -3364,13 +3368,15 @@
           "id": {
             "type": "number"
           },
-          "city": {
-            "type": "string"
+          "latitude": {
+            "type": "number",
+            "format": "float"
           },
-          "streetname": {
-            "type": "string"
+          "longitude": {
+            "type": "number",
+            "format": "float"
           },
-          "streetnumber": {
+          "location": {
             "type": "string"
           }
         }

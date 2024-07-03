@@ -8,9 +8,9 @@ export interface ConditionalTextAndBoolean extends Schema.Component {
     description: '';
   };
   attributes: {
-    city: Attribute.String;
-    streetname: Attribute.String;
-    streetnumber: Attribute.String;
+    latitude: Attribute.Float;
+    longitude: Attribute.Float;
+    location: Attribute.String;
   };
 }
 

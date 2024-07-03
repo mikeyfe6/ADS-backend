@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "city": {
-      "type": "string"
+    "latitude": {
+      "type": "float"
     },
-    "streetname": {
-      "type": "string"
+    "longitude": {
+      "type": "float"
     },
-    "streetnumber": {
+    "location": {
       "type": "string"
     }
   }
