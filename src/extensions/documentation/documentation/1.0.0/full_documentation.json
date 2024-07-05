@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-03T11:09:41.377Z"
+    "x-generation-date": "2024-07-05T12:52:24.139Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1346,6 +1346,13 @@
                                       }
                                     }
                                   },
+                                  "telephone": {
+                                    "type": "string"
+                                  },
+                                  "email": {
+                                    "type": "string",
+                                    "format": "email"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -1624,6 +1631,13 @@
               },
               "address": {
                 "$ref": "#/components/schemas/ConditionalTextAndBooleanComponent"
+              },
+              "telephone": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string",
+                "format": "email"
               }
             }
           }
@@ -3161,6 +3175,13 @@
                                       }
                                     }
                                   },
+                                  "telephone": {
+                                    "type": "string"
+                                  },
+                                  "email": {
+                                    "type": "string",
+                                    "format": "email"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -3291,6 +3312,13 @@
           },
           "address": {
             "$ref": "#/components/schemas/ConditionalTextAndBooleanComponent"
+          },
+          "telephone": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
           },
           "createdAt": {
             "type": "string",

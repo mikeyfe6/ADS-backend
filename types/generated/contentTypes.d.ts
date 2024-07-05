@@ -447,6 +447,8 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
         }
       >;
     address: Attribute.Component<'conditional.text-and-boolean'>;
+    telephone: Attribute.String;
+    email: Attribute.Email;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
