@@ -91,7 +91,7 @@
     "youtubelink": {
       "type": "string"
     },
-    "gofundmelink": {
+    "patreonlink": {
       "type": "string"
     },
     "biography": {

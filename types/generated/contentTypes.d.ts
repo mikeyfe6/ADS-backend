@@ -437,7 +437,7 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
     snapchatlink: Attribute.String;
     linkedinlink: Attribute.String;
     youtubelink: Attribute.String;
-    gofundmelink: Attribute.String;
+    patreonlink: Attribute.String;
     biography: Attribute.RichText &
       Attribute.CustomField<
         'plugin::ckeditor.CKEditor',

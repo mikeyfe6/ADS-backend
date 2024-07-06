@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-05T16:16:15.088Z"
+    "x-generation-date": "2024-07-06T13:14:09.169Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1321,7 +1321,7 @@
                                   "youtubelink": {
                                     "type": "string"
                                   },
-                                  "gofundmelink": {
+                                  "patreonlink": {
                                     "type": "string"
                                   },
                                   "biography": {
@@ -1623,7 +1623,7 @@
               "youtubelink": {
                 "type": "string"
               },
-              "gofundmelink": {
+              "patreonlink": {
                 "type": "string"
               },
               "biography": {
@@ -3150,7 +3150,7 @@
                                   "youtubelink": {
                                     "type": "string"
                                   },
-                                  "gofundmelink": {
+                                  "patreonlink": {
                                     "type": "string"
                                   },
                                   "biography": {
@@ -3304,7 +3304,7 @@
           "youtubelink": {
             "type": "string"
           },
-          "gofundmelink": {
+          "patreonlink": {
             "type": "string"
           },
           "biography": {
