@@ -431,8 +431,35 @@ export interface ApiInstantieInstantie extends Schema.CollectionType {
       'plugin::users-permissions.user'
     >;
     occupate: Attribute.Enumeration<
-      ['bedrijf', 'zelfstandig', 'hobbyist', 'stichting', 'artist']
-    >;
+      [
+        'bedrijf',
+        'stichting',
+        'non-profit organisatie',
+        'zelfstandig ondernemer',
+        'freelancer',
+        'artiest',
+        'musicus',
+        'schrijver',
+        'beeldend kunstenaar',
+        'docent',
+        'onderzoeker',
+        'student',
+        'stagiair',
+        'technicus',
+        'ingenieur',
+        'medisch professional',
+        'verzorger',
+        'administratief medewerker',
+        'kantoor medewerker',
+        'hobbyist',
+        'vrijwilliger',
+        'gepensioneerde',
+        'werkzoekende',
+        'overig',
+        'geen'
+      ]
+    > &
+      Attribute.DefaultTo<'geen'>;
     pinterestlink: Attribute.String;
     snapchatlink: Attribute.String;
     linkedinlink: Attribute.String;

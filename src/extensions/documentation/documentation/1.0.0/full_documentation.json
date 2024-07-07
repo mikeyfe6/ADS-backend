@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-07-06T13:14:09.169Z"
+    "x-generation-date": "2024-07-07T13:07:42.193Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1303,10 +1303,30 @@
                                     "type": "string",
                                     "enum": [
                                       "bedrijf",
-                                      "zelfstandig",
-                                      "hobbyist",
                                       "stichting",
-                                      "artist"
+                                      "non-profit organisatie",
+                                      "zelfstandig ondernemer",
+                                      "freelancer",
+                                      "artiest",
+                                      "musicus",
+                                      "schrijver",
+                                      "beeldend kunstenaar",
+                                      "docent",
+                                      "onderzoeker",
+                                      "student",
+                                      "stagiair",
+                                      "technicus",
+                                      "ingenieur",
+                                      "medisch professional",
+                                      "verzorger",
+                                      "administratief medewerker",
+                                      "kantoor medewerker",
+                                      "hobbyist",
+                                      "vrijwilliger",
+                                      "gepensioneerde",
+                                      "werkzoekende",
+                                      "overig",
+                                      "geen"
                                     ]
                                   },
                                   "pinterestlink": {
@@ -1605,10 +1625,30 @@
                 "type": "string",
                 "enum": [
                   "bedrijf",
-                  "zelfstandig",
-                  "hobbyist",
                   "stichting",
-                  "artist"
+                  "non-profit organisatie",
+                  "zelfstandig ondernemer",
+                  "freelancer",
+                  "artiest",
+                  "musicus",
+                  "schrijver",
+                  "beeldend kunstenaar",
+                  "docent",
+                  "onderzoeker",
+                  "student",
+                  "stagiair",
+                  "technicus",
+                  "ingenieur",
+                  "medisch professional",
+                  "verzorger",
+                  "administratief medewerker",
+                  "kantoor medewerker",
+                  "hobbyist",
+                  "vrijwilliger",
+                  "gepensioneerde",
+                  "werkzoekende",
+                  "overig",
+                  "geen"
                 ]
               },
               "pinterestlink": {
@@ -3132,10 +3172,30 @@
                                     "type": "string",
                                     "enum": [
                                       "bedrijf",
-                                      "zelfstandig",
-                                      "hobbyist",
                                       "stichting",
-                                      "artist"
+                                      "non-profit organisatie",
+                                      "zelfstandig ondernemer",
+                                      "freelancer",
+                                      "artiest",
+                                      "musicus",
+                                      "schrijver",
+                                      "beeldend kunstenaar",
+                                      "docent",
+                                      "onderzoeker",
+                                      "student",
+                                      "stagiair",
+                                      "technicus",
+                                      "ingenieur",
+                                      "medisch professional",
+                                      "verzorger",
+                                      "administratief medewerker",
+                                      "kantoor medewerker",
+                                      "hobbyist",
+                                      "vrijwilliger",
+                                      "gepensioneerde",
+                                      "werkzoekende",
+                                      "overig",
+                                      "geen"
                                     ]
                                   },
                                   "pinterestlink": {
@@ -3286,10 +3346,30 @@
             "type": "string",
             "enum": [
               "bedrijf",
-              "zelfstandig",
-              "hobbyist",
               "stichting",
-              "artist"
+              "non-profit organisatie",
+              "zelfstandig ondernemer",
+              "freelancer",
+              "artiest",
+              "musicus",
+              "schrijver",
+              "beeldend kunstenaar",
+              "docent",
+              "onderzoeker",
+              "student",
+              "stagiair",
+              "technicus",
+              "ingenieur",
+              "medisch professional",
+              "verzorger",
+              "administratief medewerker",
+              "kantoor medewerker",
+              "hobbyist",
+              "vrijwilliger",
+              "gepensioneerde",
+              "werkzoekende",
+              "overig",
+              "geen"
             ]
           },
           "pinterestlink": {

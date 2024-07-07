@@ -73,11 +73,32 @@
       "type": "enumeration",
       "enum": [
         "bedrijf",
-        "zelfstandig",
-        "hobbyist",
         "stichting",
-        "artist"
-      ]
+        "non-profit organisatie",
+        "zelfstandig ondernemer",
+        "freelancer",
+        "artiest",
+        "musicus",
+        "schrijver",
+        "beeldend kunstenaar",
+        "docent",
+        "onderzoeker",
+        "student",
+        "stagiair",
+        "technicus",
+        "ingenieur",
+        "medisch professional",
+        "verzorger",
+        "administratief medewerker",
+        "kantoor medewerker",
+        "hobbyist",
+        "vrijwilliger",
+        "gepensioneerde",
+        "werkzoekende",
+        "overig",
+        "geen"
+      ],
+      "default": "geen"
     },
     "pinterestlink": {
       "type": "string"

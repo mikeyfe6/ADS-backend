@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "BACK-end Afrodiasphere",
   "scripts": {
-    "develop": "strapi develop",
+    "develop": "yarn cache clean && strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
