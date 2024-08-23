@@ -7,6 +7,8 @@
     "develop": "yarn cache clean && strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "clean": "yarn cache clean",
+    "reinstall": "rm -rf node_modules package-lock.json yarn.lock && yarn",
     "strapi": "strapi",
     "heroku-postbuild": "yarn install --production=false && yarn build"
   },
